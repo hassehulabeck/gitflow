@@ -23,3 +23,8 @@ A good way to communicate without the need of an external tool, is to use issues
 1. Click "Change branch source" and choose **develop**
 1. Click "Create branch"
 1. In terminal, run "git fetch origin" and "git checkout #-branchname" (the branch now has a number connecting to the issue)
+1. Do changes, add & commit & push.
+1. On github, you have a green button "Compare & pull request" linked to the issue.
+1. Change base to "develop" before clicking "Create pull request"
+1. Assert that you're merging into the correct branch, before clicking "Merge pull request" and "Confirm merge".
+1. Afterwards, you can delete the feature branch.
